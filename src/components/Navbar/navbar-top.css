@@ -1,0 +1,236 @@
+/*! CSS Used from: https://ts.dunlap.ai/sites/default/files/css/css_2dvPdM13BWEwJPE3r-XCAeh6ofBtpw5tOJlgL3uREd4.css ; media=all */
+@media all {
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  a:hover {
+    cursor: pointer;
+  }
+}
+/*! CSS Used from: https://ts.dunlap.ai/sites/default/files/css/css_8P7MBej6Y0wSxbqfbWayyKnsvDZTZP_oLL3pyuctPHE.css ; media=all */
+@media all {
+  a {
+    background-color: transparent;
+  }
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  a:hover {
+    cursor: pointer;
+  }
+  ::-webkit-input-placeholder {
+    color: #666666;
+  }
+  :-moz-placeholder {
+    color: #666666;
+  }
+  ::-moz-placeholder {
+    color: #666666;
+  }
+  :-ms-input-placeholder {
+    color: #666666;
+  }
+  a {
+    text-decoration: none;
+    color: #bf5700;
+  }
+  a:hover {
+    color: #a04400;
+    text-decoration: underline;
+  }
+  .hiddenText {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+  @media only screen {
+    .hide-for-large-up {
+      display: inherit !important;
+    }
+    .show-for-large-up {
+      display: none !important;
+    }
+  }
+  @media only screen and (min-width: 40.063em) {
+    .hide-for-large-up {
+      display: inherit !important;
+    }
+    .show-for-large-up {
+      display: none !important;
+    }
+  }
+  @media only screen and (min-width: 64.063em) {
+    .show-for-large-up {
+      display: inherit !important;
+    }
+    .hide-for-large-up {
+      display: none !important;
+    }
+  }
+  @media only screen and (min-width: 68.8125rem) {
+    .show-for-large-up {
+      display: inherit !important;
+    }
+    .hide-for-large-up {
+      display: none !important;
+    }
+  }
+  @media only screen and (min-width: 120.063em) {
+    .show-for-large-up {
+      display: inherit !important;
+    }
+    .hide-for-large-up {
+      display: none !important;
+    }
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  a:hover {
+    cursor: pointer;
+  }
+  .container-topnav .nav-item-search {
+    font-size: 15px;
+  }
+  .container-topnav .parent-banner-links {
+    display: none;
+  }
+  .container-topnav .logo-link {
+    display: block;
+    height: 100%;
+    background: transparent;
+    text-decoration: none;
+  }
+  .container-topnav .topnav .parent-links {
+    display: none;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  .container-topnav .topnav .parent-links a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 0.875rem;
+    border-bottom: 1px solid #6a6361;
+    background-color: #333f48;
+  }
+  .container-topnav .topnav .current-directory {
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 1px solid #6a6361;
+  }
+  .container-topnav .topnav .current-directory .name {
+    display: inline-block;
+    font-size: 0.875rem;
+    width: 80%;
+    line-height: 2;
+    border-right: 1px solid #6a6361;
+    min-height: 50px;
+    vertical-align: middle;
+    padding: 10px 5px;
+  }
+  .container-topnav .topnav .current-directory .toggle {
+    font-size: 0.75rem;
+    color: white;
+    width: 20%;
+    display: inline-block;
+  }
+  .container-topnav .topnav .current-directory .toggle:after {
+    font-family: "UT_icons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f109";
+    vertical-align: middle;
+  }
+  .container-topnav .topnav-links {
+    margin: 0;
+    padding: 0 0.9375rem;
+    list-style: none;
+    text-align: center;
+    font-size: 0;
+  }
+  .container-topnav .topnav.knockout_logo .UT-knockout-logo {
+    width: 113.2px;
+    height: 26px;
+    margin-top: 4.4px;
+    float: right;
+    margin-bottom: 0;
+  }
+  .container-topnav .topnav.knockout_logo .UT-knockout-logo a {
+    background: url(https://ts.dunlap.ai/profiles/utexas/themes/forty_acres/img/general/knockout_university_informal_horizontal_padded.svg)
+      no-repeat scroll 0 0/100% 100%;
+  }
+  .UT-header.theme1.tall_logo .nav-item-search.show-for-large-up {
+    margin-bottom: 50px;
+  }
+  @media only screen and (min-width: 64.063em) {
+    .container-topnav .nav-item-search {
+      display: block;
+      overflow: hidden;
+      float: right;
+      margin-top: 20px;
+      height: 40px;
+      margin-bottom: 10px;
+    }
+    .container-topnav .parent-banner-links {
+      display: block;
+      width: 100%;
+      height: 32px;
+    }
+    .container-topnav .topnav-links {
+      list-style: none;
+      margin-top: 0;
+      margin-bottom: 1.0625rem;
+      margin-left: -1.375rem;
+      margin-right: 0;
+      overflow: hidden;
+      padding: 0;
+      margin-bottom: 0;
+      float: right;
+    }
+    .container-topnav .topnav-links > li {
+      display: block;
+      float: left;
+      list-style: none;
+      margin-left: 1.375rem;
+    }
+  }
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: "UT_icons";
+  src: url(https://ts.dunlap.ai/profiles/utexas/modules/custom/utexas_fonts/Icons/UT_icons.eot);
+  src: url(https://ts.dunlap.ai/profiles/utexas/modules/custom/utexas_fonts/Icons/UT_icons.eot#iefixi9zati)
+      format("embedded-opentype"),
+    url(https://ts.dunlap.ai/profiles/utexas/modules/custom/utexas_fonts/Icons/UT_icons.ttf)
+      format("truetype"),
+    url(https://ts.dunlap.ai/profiles/utexas/modules/custom/utexas_fonts/Icons/UT_icons.woff)
+      format("woff"),
+    url(https://ts.dunlap.ai/profiles/utexas/modules/custom/utexas_fonts/Icons/UT_icons.svg)
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

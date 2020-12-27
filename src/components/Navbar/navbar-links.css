@@ -1,0 +1,239 @@
+/*! CSS Used from: https://www.cs.utexas.edu/sites/default/files/css/css_dXox45BzUzMjDe6goZ5cFIJU_cgztqCESt5AdnMxog4.css ; media=all */
+@media all {
+  .sf-menu,
+  .sf-menu * {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .sf-menu {
+    line-height: 1;
+    z-index: 497;
+  }
+  .sf-menu ul {
+    left: 0;
+    position: absolute;
+    top: -99999em;
+    width: 12em;
+  }
+  .sf-menu ul li {
+    width: 100%;
+  }
+  .sf-menu li {
+    float: left;
+    position: relative;
+    z-index: 498;
+  }
+  .sf-menu a {
+    display: block;
+    position: relative;
+  }
+  .sf-menu li:hover,
+  .sf-menu li:hover ul {
+    z-index: 499;
+  }
+  .sf-menu li:hover > ul {
+    left: 0;
+    top: 2.5em;
+  }
+  .sf-menu li li:hover > ul {
+    left: 12em;
+    top: 0;
+  }
+  .sf-hidden {
+    left: 0 !important;
+    top: -99999em !important;
+  }
+  .sf-menu a.sf-with-ul {
+    min-width: 1px;
+  }
+  .sf-sub-indicator {
+    background: url(https://www.cs.utexas.edu/sites/all/libraries/superfish/images/arrows-ffffff.png)
+      no-repeat -10px -100px;
+    display: block;
+    height: 10px;
+    overflow: hidden;
+    position: absolute;
+    right: 0.75em;
+    text-indent: -999em;
+    top: 1.05em;
+    width: 10px;
+  }
+  a > .sf-sub-indicator {
+    top: 0.8em;
+    background-position: 0 -100px;
+  }
+  a:focus > .sf-sub-indicator,
+  a:hover > .sf-sub-indicator,
+  a:active > .sf-sub-indicator,
+  li:hover > a > .sf-sub-indicator {
+    background-position: -10px -100px;
+  }
+  .sf-menu ul .sf-sub-indicator {
+    background-position: -10px 0;
+  }
+  .sf-menu ul a > .sf-sub-indicator {
+    background-position: 0 0;
+  }
+  .sf-menu ul a:focus > .sf-sub-indicator,
+  .sf-menu ul a:hover > .sf-sub-indicator,
+  .sf-menu ul a:active > .sf-sub-indicator,
+  .sf-menu ul li:hover > a > .sf-sub-indicator {
+    background-position: -10px 0;
+  }
+  .sf-menu.sf-style-white {
+    float: left;
+    margin-bottom: 1em;
+    padding: 0;
+  }
+  .sf-menu.sf-style-white ul {
+    padding-left: 0;
+  }
+  .sf-menu.sf-style-white a {
+    border: 1px solid #e1e1e1;
+    color: #555555;
+    padding: 0.75em 1em;
+  }
+  .sf-menu.sf-style-white a.sf-with-ul {
+    padding-right: 2.25em;
+  }
+  .sf-menu.sf-style-white li {
+    background: #f9f9f9;
+  }
+  .sf-menu.sf-style-white li li {
+    background: #f7f7f7;
+  }
+  .sf-menu.sf-style-white li li li {
+    background: #f5f5f5;
+  }
+  .sf-menu.sf-style-white li:hover,
+  .sf-menu.sf-style-white a:focus,
+  .sf-menu.sf-style-white a:hover,
+  .sf-menu.sf-style-white a:active {
+    background: #e9e9e9;
+  }
+  .sf-menu.sf-style-white .sf-sub-indicator {
+    background-image: url(https://www.cs.utexas.edu/sites/all/libraries/superfish/images/arrows-777777.png);
+  }
+}
+/*! CSS Used from: https://www.cs.utexas.edu/sites/default/files/css/css_bktasDU6ju0Y9T196v4IoSZrWGIZgpdaWtMRGvmSL5o.css ; media=all */
+@media all {
+  * {
+    box-sizing: border-box;
+  }
+  a:link {
+    color: #bf5700;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #bf5700;
+    text-decoration: none;
+  }
+  a:hover,
+  a:focus {
+    color: #bf5700;
+    text-decoration: underline;
+  }
+  a:focus {
+    outline: thin dotted;
+  }
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+  ul {
+    margin: 1.5em 0;
+  }
+  ul ul {
+    margin: 0;
+  }
+  ul {
+    padding: 0 0 0 30px;
+  }
+  .block {
+    margin-bottom: 1.5em;
+  }
+  #header .menu {
+    margin: 0;
+    padding: 0;
+  }
+  #header .menu li {
+    display: inline-block;
+    padding: 0 3px;
+    list-style-type: none;
+    list-style-image: none;
+  }
+  #header .menu li .last {
+    padding-right: 0;
+  }
+  @media all and (min-width: 795px) {
+    #block-superfish-1 {
+      margin: 0 auto;
+    }
+  }
+  @media all and (min-width: 795px) {
+    #block-superfish-1 #superfish-1 {
+      margin: 0 auto;
+    }
+  }
+  #block-superfish-1 #superfish-1 li ul li {
+    padding: 0;
+  }
+  #block-superfish-1 #superfish-1 a {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    text-align: left;
+  }
+  #block-superfish-1 #superfish-1 a:focus,
+  #block-superfish-1 #superfish-1 a:hover,
+  #block-superfish-1 #superfish-1 a:active {
+    background-color: #666;
+    text-decoration: none;
+  }
+  #block-superfish-1 #superfish-1 a.sf-depth-1 {
+    border: none;
+    padding: 0.5em 2.15em;
+    color: #555;
+    font-weight: normal;
+    text-transform: uppercase;
+    background-color: transparent;
+  }
+  @media (max-width: 1250px) {
+    #block-superfish-1 #superfish-1 a.sf-depth-1 {
+      padding: 0.5em 1.5em;
+    }
+  }
+  @media (max-width: 1100px) {
+    #block-superfish-1 #superfish-1 a.sf-depth-1 {
+      padding: 0.5em 1.25em;
+    }
+  }
+  @media (max-width: 1050px) {
+    #block-superfish-1 #superfish-1 a.sf-depth-1 {
+      padding: 0.5em 1em;
+    }
+  }
+  #block-superfish-1 #superfish-1 li,
+  #block-superfish-1 #superfish-1 li.sf-depth-1:hover,
+  #block-superfish-1 #superfish-1 a.sf-depth-1:focus,
+  #block-superfish-1 #superfish-1 a.sf-depth-1:hover,
+  #block-superfish-1 #superfish-1 a.sf-depth-1:active {
+    background: none;
+  }
+  #block-superfish-1 #superfish-1 .sf-depth-1 > a span {
+    display: none;
+  }
+  #block-superfish-1 #superfish-1 #menu-3782-1 .sf-hidden {
+    width: 10px;
+  }
+  #block-superfish-1 #superfish-1 #menu-3782-1 ul {
+    left: -80px;
+  }
+  @media print {
+    a:link,
+    a:visited {
+      text-decoration: underline !important;
+    }
+  }
+}
