@@ -11,4 +11,4 @@ tags:
   - seniors
   - "2020"
 ---
-Congrats to our seniors! Stay tuned for a post on where they're going!
+\
