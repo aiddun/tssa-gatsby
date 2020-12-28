@@ -6,7 +6,7 @@ description: |+
   Congrats to our seniors! Stay tuned for a post on where they're going!
 
 featuredpost: false
-featuredimage: /img/img_4711.jfif
+featuredimage: /img/img_4711.jpeg
 tags:
   - seniors
   - "2020"

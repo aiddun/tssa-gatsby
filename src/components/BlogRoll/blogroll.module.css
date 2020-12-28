@@ -1,0 +1,353 @@
+/*! CSS Used from: https://ts.dunlap.ai/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css ; media=all */
+@media all {
+  img {
+    border: 0;
+  }
+}
+/*! CSS Used from: https://ts.dunlap.ai/sites/default/files/css/css_Ar3U35FCuOZEiEMfFSI-T2zGmoo9S3ohW4RQ3-WrAjk.css ; media=all */
+@media all {
+  #block-views-news-news-with-thumbnails .post-headline {
+    border-bottom: 2px solid #3c87a3;
+    font-weight: 700;
+    margin: 0 0 20px;
+    padding-bottom: 7px;
+  }
+  #block-views-news-news-with-thumbnails .utexas-news-date {
+    float: left;
+  }
+  #block-views-news-news-with-thumbnails .utexas-news-date div.field-content {
+    font-style: italic;
+    font-size: 14px;
+    display: inline;
+  }
+  #block-views-news-news-with-thumbnails
+    .utexas-news-date
+    div.field-content:after {
+    content: " — ";
+    padding-right: 4px;
+  }
+  #block-views-news-news-with-thumbnails .views-field.views-field-title a {
+    color: #a04400;
+  }
+  #block-views-news-news-with-thumbnails
+    .views-field.views-field-title
+    a:after {
+    font-family: "UT_icons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f100";
+    padding-left: 5px;
+  }
+  #block-views-news-news-with-thumbnails
+    .views-field.views-field-title
+    a:hover {
+    text-decoration: none;
+  }
+  #block-views-news-news-with-thumbnails
+    .views-field.views-field-title
+    a
+    span:hover {
+    text-decoration: underline;
+  }
+  #block-views-news-news-with-thumbnails {
+    margin-bottom: 20px;
+  }
+  #block-views-news-news-with-thumbnails
+    .views-field.views-field-field-news-main-image {
+    margin-right: 15px;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 80px;
+  }
+  @media only screen and (min-width: 40.063em) {
+    #block-views-news-news-with-thumbnails
+      .views-field.views-field-field-news-main-image {
+      width: 120px;
+    }
+  }
+  #block-views-news-news-with-thumbnails
+    .views-field.views-field-field-news-main-image
+    img {
+    width: 100%;
+  }
+  #block-views-news-news-with-thumbnails .views-field.views-field-title {
+    padding-left: 95px;
+  }
+  @media only screen and (min-width: 40.063em) {
+    #block-views-news-news-with-thumbnails .views-field.views-field-title {
+      padding-left: 135px;
+    }
+  }
+  #block-views-news-news-with-thumbnails .views-row-odd {
+    clear: left;
+  }
+  #block-views-news-news-with-thumbnails .views-row {
+    padding-bottom: 20px;
+  }
+  .region-content-top-right #block-views-news-news-with-thumbnails .views-row {
+    width: 100%;
+  }
+  .region-content-top-right
+    #block-views-news-news-with-thumbnails
+    .utexas-news-date {
+    float: none;
+  }
+  .region-content-top-right
+    #block-views-news-news-with-thumbnails
+    .utexas-news-date
+    .field-content::after {
+    content: "";
+    padding-right: 0;
+  }
+  .region-content-top-right
+    #block-views-news-news-with-thumbnails
+    .views-field.views-field-field-news-main-image {
+    width: 80px;
+  }
+  .region-content-top-right
+    #block-views-news-news-with-thumbnails
+    .views-field.views-field-title {
+    padding-left: 95px;
+  }
+}
+/*! CSS Used from: https://ts.dunlap.ai/sites/default/files/css/css_2dvPdM13BWEwJPE3r-XCAeh6ofBtpw5tOJlgL3uREd4.css ; media=all */
+@media all {
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  a:hover {
+    cursor: pointer;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  img {
+    -ms-interpolation-mode: bicubic;
+  }
+  img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  @media only screen and (max-width: 40em) {
+    .field_wysiwyg_b {
+      padding: 0;
+    }
+  }
+}
+/*! CSS Used from: https://ts.dunlap.ai/sites/default/files/css/css_8P7MBej6Y0wSxbqfbWayyKnsvDZTZP_oLL3pyuctPHE.css ; media=all */
+@media all {
+  a {
+    background-color: transparent;
+  }
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+  img {
+    border: 0;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  a:hover {
+    cursor: pointer;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  img {
+    -ms-interpolation-mode: bicubic;
+  }
+  img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .row {
+    margin: 0 auto;
+    max-width: 73.75rem;
+    width: 100%;
+  }
+  .row:before,
+  .row:after {
+    content: " ";
+    display: table;
+  }
+  .row:after {
+    clear: both;
+  }
+  .row .row {
+    margin: 0 -0.46875rem;
+    max-width: none;
+    width: auto;
+  }
+  .row .row:before,
+  .row .row:after {
+    content: " ";
+    display: table;
+  }
+  .row .row:after {
+    clear: both;
+  }
+  .column,
+  .columns {
+    padding-left: 0.46875rem;
+    padding-right: 0.46875rem;
+    width: 100%;
+    float: left;
+  }
+  .column + .column:last-child,
+  .columns + .columns:last-child {
+    float: right;
+  }
+  .columns + .columns.end {
+    float: left;
+  }
+  ::-webkit-input-placeholder {
+    color: #666666;
+  }
+  :-moz-placeholder {
+    color: #666666;
+  }
+  ::-moz-placeholder {
+    color: #666666;
+  }
+  :-ms-input-placeholder {
+    color: #666666;
+  }
+  .block-fieldblock,
+  .block {
+    margin-bottom: 25px;
+  }
+  a {
+    text-decoration: none;
+    color: #bf5700;
+  }
+  a:hover {
+    color: #a04400;
+    text-decoration: underline;
+  }
+  p {
+    color: #282828;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 0 0 1.25rem 0;
+  }
+  h3 {
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    font-weight: 600;
+    color: #2d2a28;
+    margin: 0 0 8px 0;
+  }
+  .post-headline {
+    font-size: 1.0625rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+  }
+  @media only screen {
+    .column,
+    .columns {
+      position: relative;
+      padding-left: 0.46875rem;
+      padding-right: 0.46875rem;
+      float: left;
+    }
+    .small-12 {
+      width: 100%;
+    }
+  }
+  @media only screen and (min-width: 40.063em) {
+    .column,
+    .columns {
+      position: relative;
+      padding-left: 0.46875rem;
+      padding-right: 0.46875rem;
+      float: left;
+    }
+    .medium-4 {
+      width: 33.3333333333%;
+    }
+    .block-fieldblock,
+    .block {
+      margin-bottom: 40px;
+    }
+    p {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+    }
+    h3 {
+      font-size: 1.625rem;
+      line-height: 2rem;
+    }
+    .post-headline {
+      font-size: 1.125rem;
+      line-height: 1.375rem;
+    }
+  }
+  @media only screen and (min-width: 64.063em) {
+    .column,
+    .columns {
+      position: relative;
+      padding-left: 0.46875rem;
+      padding-right: 0.46875rem;
+      float: left;
+    }
+    .large-3 {
+      width: 25%;
+    }
+    .large-6 {
+      width: 50%;
+    }
+    .post-headline {
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+    }
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  a:hover {
+    cursor: pointer;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  img {
+    -ms-interpolation-mode: bicubic;
+  }
+  img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: "UT_icons";
+  src: url(https://ts.dunlap.ai/profiles/utexas/modules/custom/utexas_fonts/Icons/UT_icons.eot);
+  src: url(https://ts.dunlap.ai/profiles/utexas/modules/custom/utexas_fonts/Icons/UT_icons.eot#iefixi9zati)
+      format("embedded-opentype"),
+    url(https://ts.dunlap.ai/profiles/utexas/modules/custom/utexas_fonts/Icons/UT_icons.ttf)
+      format("truetype"),
+    url(https://ts.dunlap.ai/profiles/utexas/modules/custom/utexas_fonts/Icons/UT_icons.woff)
+      format("woff"),
+    url(https://ts.dunlap.ai/profiles/utexas/modules/custom/utexas_fonts/Icons/UT_icons.svg)
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

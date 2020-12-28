@@ -1,0 +1,16 @@
+
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: "UT_icons";
+  src: url(https://ts.dunlap.ai/profiles/utexas/modules/custom/utexas_fonts/Icons/UT_icons.eot);
+  src: url(https://ts.dunlap.ai/profiles/utexas/modules/custom/utexas_fonts/Icons/UT_icons.eot#iefixi9zati)
+      format("embedded-opentype"),
+    url(https://ts.dunlap.ai/profiles/utexas/modules/custom/utexas_fonts/Icons/UT_icons.ttf)
+      format("truetype"),
+    url(https://ts.dunlap.ai/profiles/utexas/modules/custom/utexas_fonts/Icons/UT_icons.woff)
+      format("woff"),
+    url(https://ts.dunlap.ai/profiles/utexas/modules/custom/utexas_fonts/Icons/UT_icons.svg)
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

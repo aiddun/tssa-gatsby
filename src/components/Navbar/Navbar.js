@@ -1,6 +1,12 @@
+import { graphql, Link, useStaticQuery } from "gatsby";
+import Img from "gatsby-image";
 import React from "react";
-import NavbarLinkBar from "./NavbarLinkBar";
-import "./navbar-top.css";
+// import "./navbar-top.module.css";
+import NavbarLinkBar from "./NavbarLinkBar/NavbarLinkBar";
+import Logo from "./Logo";
+import CenterLayout from "../CenterLayout";
+
+// import navbarTopStyles from "./navbar-top.module.css";
 
 const menuPages = [
   { name: "Home", link: "#" },
@@ -14,38 +20,29 @@ const menuPages = [
 
 const TopBar = () => {
   return (
-    <div className="topnav knockout_logo">
-      <div className="parent-banner-links">
-        <div className="UT-knockout-logo">
-          <a href="http://www.utexas.edu" className="logo-link">
-            <span className="hiddenText">University of Texas at Austin Home</span>
-          </a>
-        </div>
-      </div>
-      <div className="hide-for-large-up">
-        <div className="parent-links" id="parents">
-          <a href="http://www.utexas.edu">The University of Texas at Austin</a>
-        </div>
-        <a href="/" className="current-directory" id="show-parents">
-          <span className="name">Turing Scholars</span>
-          <span className="toggle"></span>
-        </a>
-      </div>
-      <div className="nav-item-search show-for-large-up"></div>
-      <ul className="topnav-links hide-for-large-up">
-        <li className="nav-item nav-item-search"></li> 
-      </ul>
+    <div className="h-8" style={{ backgroundColor: "#bf5700" }}>
+      <CenterLayout className="h-full">
+        <img className="h-5/6	float-right align-middle pt-1"src="/img/knockout_university_informal_horizontal_padded.svg"></img>
+      </CenterLayout>
     </div>
   );
 };
 
 const Navbar = () => {
   return (
-    <>
+    <nav
+      className="block navbar border-b border-gray-200"
+      role="navigation"
+      aria-label="main-navigation"
+    >
       <TopBar />
-      <NavbarLinkBar menuPages={menuPages} />
-    </>
+      <div className="pt-9">
+        <CenterLayout>
+          <Logo />
+          <NavbarLinkBar menuPages={menuPages} />
+        </CenterLayout>
+      </div>
+    </nav>
   );
 };
-
 export default Navbar;
