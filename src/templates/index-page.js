@@ -21,7 +21,7 @@ export const IndexPageTemplate = ({
     <div className="md:col-span-2">
       <Img fluid={image ? image.childImageSharp.fluid : ""} />
 
-      <h2 className="font-semibold text-xl md:text-2xl lg:text-4xl py-4">{mainpitch.title}</h2>
+      <h2 className="font-semibold text-2xl lg:text-4xl py-4">{mainpitch.title}</h2>
       {/* <br /> */}
       {mainpitch.description.split("\n").map((line) => (
         <p key={line} className="text-md md:text-lg pb-1">
