@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 import Img from "gatsby-image";
 
 const PromoCard = ({ name, link, image, imgAlt, children }) => {
-  console.log(image);
   return (
     <div className="py-3">
       <div
