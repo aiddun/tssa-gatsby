@@ -8,10 +8,10 @@ const Footer = () => {
     <div className="bg-gray-50 py-9">
       <CenterLayout>
         <div className="grid grid-rows:3 md:grid-cols-3 gap-5">
-          <div className="border-b md:border-b-0 md:border-r border-gray-300	">
+          <div className="border-b md:border-b-0 md:border-r border-gray-300 pb-3">
             <FooterLogo />
           </div>
-          <div className="md:px-8 border-b md:border-b-0 md:border-r border-gray-300">
+          <div className="md:px-8 border-b md:border-b-0 md:border-r pb-5 border-gray-300">
             {[
               { name: "Why Turing", url: "/" },
               { name: "Academics", url: "/" },

@@ -68,7 +68,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-purgecss`,
       options: {
-        develop: true,
+        // develop: true,
         tailwind: true, // Enable tailwindcss support
       },
     },

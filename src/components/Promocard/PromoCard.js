@@ -28,10 +28,9 @@ const PromoCard = ({ name, link, image, imgAlt, children }) => {
             </Link>
           </div>
           <div className="pl-5 inline  ">
-            <h4 className="text-xl font-bold leading-7	">
+            <h4 className="md:text-xl font-bold leading-7	">
               <Link to={link}>{name}</Link>
             </h4>
-            {/* Copy */}
             <div className="leading-5	pt-3">{children}</div>
             <div className=" pt-4">
               <p className="leading-7" style={{ color: "#a04400" }}>
