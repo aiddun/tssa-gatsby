@@ -17,7 +17,7 @@ export default function Logo() {
   //   return <Img fixed={data.file.childImageSharp.fixed} />;
   return (
     <Link to="/">
-      <img width="400px" src="/img/tslogo.png"></img>
+      <img className="w-64 md:w-96" src="/img/tslogo.png"></img>
     </Link>
   );
 }

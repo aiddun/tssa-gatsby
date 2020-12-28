@@ -16,19 +16,29 @@ const NavBarElement = ({ element, subelements = [] }) => {
 
   return (
     <li>
-      <Link className="lg:p-4 py-3 px-0 block uppercase text-sm font-semibold text-gray-900" to={link}>
+      <Link
+        className="lg:p-4 py-3 px-0 block uppercase text-sm text-xs lg:text-sm font-semibold text-gray-900"
+        to={link}
+      >
         {name}
       </Link>
     </li>
   );
 };
 
-const NavbarLinkBar = ({ menuPages }) => {
+const NavbarLinkBar = ({ menuPages, mobileMenuOpen }) => {
   return (
-    <div className="flex">
+    <div className="flex border-t md:border-t-0">
       <div className="lg:flex-grow"></div>
-      <div className="lg:w-full max-w-screen-xl mx-auto lg:flex-shrink" id="menu">
-        <ul className="lg:flex items-center justify-between">
+      <div
+        className="md:w-full max-w-screen-xl md:mx-auto md:flex-shrink"
+        id="menu"
+      >
+        <ul
+          className={`lg:flex items-center justify-between ${
+            mobileMenuOpen ? "" : "hidden"
+          } md:flex`}
+        >
           {menuPages.map((e) => (
             <NavBarElement key={e.name} element={e} />
           ))}
